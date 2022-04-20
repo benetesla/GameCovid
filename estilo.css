@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    cursor: url(Imagens/Capiata-covid.png) 30 30, auto;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(imagens/cidade.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.imgaloser {
+    border-radius: 10px;
+    background: rgb(228, 150, 228);
+}
+
+.covid1 {
+    width: 60px;
+    height: 60px;
+}
+
+.covid2 {
+    width: 80px;
+    height: 80px;
+}
+
+.covid3 {
+    width: 100px;
+    height: 100px;
+}
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    /* border-topo: solid 1px #fff;*/
+    background-color: rgb(170, 37, 231);
+    opacity: 0.7
+}
+
+.vidas {
+    float: right;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(231, 215, 236);
+    border-radius: 15px;
+}
